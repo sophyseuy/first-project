@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.active {
+    background: orange;
+}
+
+.container {
+    width: 90%;
+    background: rgb(173, 203, 211);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.new-container {
+    width: 70%;
+    background: rgb(114, 171, 187);
+    margin: auto;
+    margin-top: 4%;
+}
+nav {
+    width: 80%;
+    margin: auto;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li {
+    padding: 10px;
+}
+nav ul li a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+  
+.image img{
+    width: 60%;
+    height: 30vh;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+.image1 img {
+    width: 90%;
+    margin-left:5%;
+
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(221, 151, 21);
+}
+p {
+    padding: auto;
+    padding:0 40px;
+}
+.two {
+    color: orangered;
+    padding: 2%;
+}
+.card {
+    width: 30%;
+    justify-content: center;
+    border: 1px solid rgb(207 ,204, 204);
+    background: rgb(171, 214, 219);
+    border-radius: 8px;
+    margin: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.fa-star {
+    color:orange;
+}
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+section {
+    width: 96%;
+    margin: auto;
+}
+.form-container {
+    box-sizing: border-box;
+    margin: 3px;
+    margin-left: 7%;
+}
+input , textarea , button {
+    width: 80%;
+    height: 6vh;
+    box-sizing: border-box;
+    margin: 3px;
+    margin-left: 7%;
+}
+textarea {
+    height: 16vh;
+}
+button {
+    background: rgb(219, 149, 99);
+    text-decoration: none;
+    border: none;
+    height: 7.5vh;
+    text-transform: uppercase;
+    color: palegoldenrod;
+    
+}
